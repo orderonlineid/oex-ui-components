@@ -28,7 +28,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/orderonlineid/oex-ui-components' },
+    ],
+    
+    footer: {
+      // message: 'Released under the MIT License.',
+      copyright: '© 2024 oexpress.id'
+    }
   }
 })
