@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: orderonlineid/oex-ui-components
+  branch: main
+media_folder: ".vitepress/dist/"
+public_folder: "../../"
+display_url: https://oex-components.netlify.com
+collections:
+  - name: "components" # Used in routes, e.g., /admin/collections/blog
+    label: "Components" # Used in the UI
+    folder: "components" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    show_preview_links: true
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Categories", name: "categories", widget: "list"}
