@@ -1,3 +1,7 @@
+backend:
+  name: github
+  repo: orderonlineid/oex-ui-components
+  branch: main
 media_folder: ".vitepress/dist/"
 public_folder: "../../"
 display_url: https://oex-components.netlify.com
