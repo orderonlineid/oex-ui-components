@@ -7,7 +7,7 @@ hero:
   tagline: "A UI Documentation for OExpress"
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: View Document
       link: /examples/markdown-examples
     - theme: alt
       text: API Examples

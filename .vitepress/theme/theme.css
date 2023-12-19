@@ -1,15 +1,18 @@
 :root {
-  --vp-primary: #28a0f6;
+  --vp-primary: #02B1C3;
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe,
-    var(--vp-primary)
+    var(--vp-primary),
+    #f23a3a
   );
   --vp-c-brand: var(--vp-primary);
   --vp-c-brand-lighter: #4fb1f8;
   --vp-c-brand-darker: #0984dd;
   --vp-c-brand-dark: #0984dd;
+  --vp-button-brand-bg: #f23a3a;
+  --vp-button-brand-hover-bg: #b70b0b;
+  --vp-c-brand-1: #f23a3a;
 }
 
 h4,
