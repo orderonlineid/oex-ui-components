@@ -1,18 +1,18 @@
 # Component Button
 
-<LivePreview>
+<LivePreview :storybookId='`components-button-button--default`'>
 
 ```vue
 <template>
-  <!-- VAlert is registered globally -->
-  <VAlert> Alert text </VAlert>
+  <Button title='Button' />
 </template>
-```
-</LivePreview>
 
-<iframe
-  src="https://64140cf50b8d988c175493a4-ogagtsocbe.chromatic.com/iframe.html?args=&id=components-form-input-password--default&viewMode=story"
-  class=""
-  :width="800"
-  :height="600"
-></iframe>
+<script>
+import Button from '@/components/Button/Button.vue'
+export default {
+  components: { Button }
+}
+</script>
+```
+
+</LivePreview>
