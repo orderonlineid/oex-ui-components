@@ -6,22 +6,29 @@ export default defineConfig({
   description: "A UI Documentation for OExpress",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local',
+    },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/examples/markdown-examples' }
+      { text: 'Components', link: '/components/button' },
+      { text: 'How to contribute?', link: '/getting-started/installation' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Getting Started',
+        collapsed: false,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Introduction', link: '/getting-started/introduction' },
+          { text: 'Installation', link: '/getting-started/installation' },
+          { text: 'Markdown Template', link: '/getting-started/_markdown-template' },
         ]
       },
       {
         text: 'Components',
         items: [
+          { text: 'Alert', link: '/components/alert' },
           { text: 'Button', link: '/components/button' },
         ]
       }

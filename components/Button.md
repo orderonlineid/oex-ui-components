@@ -1,4 +1,4 @@
-# Component Button
+# Button
 
 <!-- Your description here -->
 
