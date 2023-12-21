@@ -30,6 +30,7 @@ export default defineConfig({
         items: [
           { text: 'Alert', link: '/components/alert' },
           { text: 'Button', link: '/components/button' },
+          { text: 'Input', link: '/components/input' },
         ]
       }
     ],
@@ -37,7 +38,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/orderonlineid/oex-ui-components' },
     ],
-    
+
     footer: {
       // message: 'Released under the MIT License.',
       copyright: '© 2024 oexpress.id'

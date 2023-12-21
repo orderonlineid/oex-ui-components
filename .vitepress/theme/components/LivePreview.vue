@@ -27,11 +27,12 @@ import { ref, computed } from 'vue'
 
 
 const props = defineProps({
-  storybookId: String
+  storybookId: String,
+  args: String
 })
 
 const source = computed(() => {
-  return `https://64140cf50b8d988c175493a4-ogagtsocbe.chromatic.com/iframe.html?args=&id=${props.storybookId}&viewMode=story`;
+  return `https://64140cf50b8d988c175493a4-ogagtsocbe.chromatic.com/iframe.html?args=${props.args || ''}&id=${props.storybookId}&viewMode=story`;
 });
 
 const activeTab = ref('preview');
