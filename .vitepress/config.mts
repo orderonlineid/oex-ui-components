@@ -31,6 +31,7 @@ export default defineConfig({
           { text: 'Alert', link: '/components/alert' },
           { text: 'Button', link: '/components/button' },
           { text: 'Input', link: '/components/input' },
+          { text: 'Input Group', link: '/components/inputGroup' },
         ]
       }
     ],
